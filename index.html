@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background: linear-gradient(45deg, #0073e6, #4caf50);
+    color: white;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Project Card */
+.project-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h2 {
+    font-size: 1.8rem;
+    color: #0073e6;
+    margin: 20px 0;
+}
+
+.project-card p {
+    font-size: 1rem;
+    padding: 0 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.project-card .btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: background 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background: #005bb5;
+}
+
+.project-card .screenshot img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #f1f1f1;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🌟 Project Showcase</h1>
+        <p>A collection of useful applications to simplify your daily tasks</p>
+    </header>
+
+    <main class="container">
+        <!-- Weather App Section -->
+        <section class="project-card">
+            <h2>🌦️ Weather App</h2>
+            <p>
+                A simple weather application to fetch real-time weather data for any city using the WeatherAPI. Displays temperature, humidity, wind speed, and conditions.
+            </p>
+            <a href="https://sid-cloud13.github.io/Weather_App/" class="btn">Visit Weather App</a>
+            <div class="screenshot">
+                <img src="https://via.placeholder.com/800x400?text=Weather+App+Screenshot" alt="Weather App Screenshot">
+            </div>
+        </section>
+
+        <!-- Mail Sender Section -->
+        <section class="project-card">
+            <h2>✉️ Mail Sender</h2>
+            <p>
+                A secure and easy-to-use email sending application. Send personalized emails using your Gmail account with just a few clicks.
+            </p>
+            <a href="https://sid-cloud13.github.io/Mail_Sender/" class="btn">Visit Mail Sender</a>
+            <div class="screenshot">
+                <img src="https://via.placeholder.com/800x400?text=Mail+Sender+Screenshot" alt="Mail Sender Screenshot">
+            </div>
+        </section>
+
+        <!-- Password Generator Section -->
+        <section class="project-card">
+            <h2>🔒 Password Generator</h2>
+            <p>
+                Generate strong, random passwords tailored to your needs. Perfect for improving online security and safeguarding sensitive accounts.
+            </p>
+            <a href="https://sid-cloud13.github.io/Password_generator/" class="btn">Visit Password Generator</a>
+            <div class="screenshot">
+                <img src="https://via.placeholder.com/800x400?text=Password+Generator+Screenshot" alt="Password Generator Screenshot">
+            </div>
+        </section>
+
+        <!-- Expense Tracker Section -->
+        <section class="project-card">
+            <h2>💰 Expense Tracker</h2>
+            <p>
+                Keep track of your daily expenses with this handy tool. Categorize, save, and load expense data easily to monitor your spending.
+            </p>
+            <a href="https://sid-cloud13.github.io/Expenses_traker/" class="btn">Visit Expense Tracker</a>
+            <div class="screenshot">
+                <img src="https://via.placeholder.com/800x400?text=Expense+Tracker+Screenshot" alt="Expense Tracker Screenshot">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>🔑 Generate strong passwords effortlessly! | Powered by 🌟 Projects</p>
+    </footer>
+</body>
+</html>
